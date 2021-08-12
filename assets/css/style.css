@@ -4,6 +4,10 @@ body {
     color: #222F54;
 }
 
+p {
+    font-size: 14px;
+}
+
 /* Scrollbar Style */
 ::-webkit-scrollbar {
     width: 10px;
@@ -129,6 +133,7 @@ body {
     height: 700px;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #jumbotron .heading {
