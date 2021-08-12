@@ -61,7 +61,7 @@ body {
 
 .primary-btn-outline {
     background-color: transparent;
-    color: #333333;
+    color: #FF3D48;
     font-size: 13px;
     font-weight: 500;
     box-shadow: none !important;
@@ -72,6 +72,21 @@ body {
 .primary-btn-outline:hover {
     background-color: #FF3D48;
     color: #ffffff;
+}
+
+.secondary-btn-outline {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: none !important;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
+.secondary-btn-outline:hover {
+    background-color: #ffffff;
+    color: #333333 !important;
 }
 
 /* End Of Button */
@@ -95,11 +110,15 @@ body {
 }
 
 #home-navbar .btn-donate-now, .btn-looking-for-donors {
-    padding: 7px 10px !important;
+    padding: 7px 15px !important;
+}
+
+#home-navbar .btn-looking-for-donors {
+    color: #FF3D48 !important;
 }
 
 #home-navbar .btn-looking-for-donors:hover {
-    color: white;
+    color: #ffffff !important;
 }
 /* End Of Navbar (Home Navbar) */
 
@@ -107,12 +126,13 @@ body {
 #jumbotron {
     background-image:
         linear-gradient(to bottom, rgb(0, 0, 0, 0.80), rgb(0, 0, 0, 0.80)), url('../images/background/nguy-n-hi-p-2rNHliX6XHk-unsplash.jpg');
-    height: 600px;
+    height: 700px;
     background-position: center;
+    background-size: cover;
 }
 
 #jumbotron .heading {
-    padding-top: 130px;
+    padding-top: 200px;
 }
 
 #jumbotron .btn-donate-now, .btn-learn-more {
