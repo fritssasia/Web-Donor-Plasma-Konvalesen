@@ -1,7 +1,7 @@
 /* == Global CSS (CSS Style For All Page) == */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #333333;
+    color: #222F54;
 }
 
 /* Scrollbar Style */
@@ -39,7 +39,7 @@ body {
 }
 
 .color-3 {
-    color: #333333;
+    color: #222F54;
 }
 /* End Of Color */
 
@@ -86,7 +86,7 @@ body {
 
 .secondary-btn-outline:hover {
     background-color: #ffffff;
-    color: #333333 !important;
+    color: #222F54 !important;
 }
 
 /* End Of Button */
@@ -102,7 +102,7 @@ body {
 
 #home-navbar .nav-item .nav-link {
     font-size: 14px;
-    color: #333333;
+    color: #222F54;
 }
 
 #home-navbar .nav-item.active .nav-link {
@@ -145,4 +145,12 @@ body {
 }
 
 /* End Of Jumbotron */
+
+/* About */
+#about .checkmark-icon {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #42ba96;
+}
+/* And Of About */
 /* == End Of Page index.html == */
