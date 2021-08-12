@@ -1,0 +1,128 @@
+/* == Global CSS (CSS Style For All Page) == */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF3D48;
+    border-radius: 2px;
+}
+/* End Of Scrollbar Style */
+
+/* Font Weight (Default Regular : 400) */
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+/* End Of Font Weight (Default Regular : 400) */
+
+/* Color */
+.color-1 {
+    color: #FF3D48;
+}
+
+.color-2 {
+    color: #097FFB;
+}
+
+.color-3 {
+    color: #333333;
+}
+/* End Of Color */
+
+/* Button */
+.primary-btn {
+    background-color: #FF3D48;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: none !important;
+    border: 1px solid #FF3D48;
+    border-radius: 2px;
+}
+
+.primary-btn:hover {
+    color: #ffffff;
+    filter: brightness(85%);
+}
+
+.primary-btn-outline {
+    background-color: transparent;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: none !important;
+    border: 1px solid #FF3D48;
+    border-radius: 2px;
+}
+
+.primary-btn-outline:hover {
+    background-color: #FF3D48;
+    color: #ffffff;
+}
+
+/* End Of Button */
+
+/* == End Of Global CSS (CSS Style For All Page) == */
+
+/* == Page index.html == */
+
+/* Navbar (Home Navbar) */
+#home-navbar .nav-menu {
+    margin: 0px 5px;
+}
+
+#home-navbar .nav-item .nav-link {
+    font-size: 14px;
+    color: #333333;
+}
+
+#home-navbar .nav-item.active .nav-link {
+    color: #FF3D48;
+}
+
+#home-navbar .btn-donate-now, .btn-looking-for-donors {
+    padding: 7px 10px !important;
+}
+
+#home-navbar .btn-looking-for-donors:hover {
+    color: white;
+}
+/* End Of Navbar (Home Navbar) */
+
+/* Jumbotron */
+#jumbotron {
+    background-image:
+        linear-gradient(to bottom, rgb(0, 0, 0, 0.80), rgb(0, 0, 0, 0.80)), url('../images/background/nguy-n-hi-p-2rNHliX6XHk-unsplash.jpg');
+    height: 600px;
+    background-position: center;
+}
+
+#jumbotron .heading {
+    padding-top: 130px;
+}
+
+#jumbotron .btn-donate-now, .btn-learn-more {
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+
+#jumbotron .btn-learn-more {
+    color: white;
+}
+
+/* End Of Jumbotron */
+/* == End Of Page index.html == */
