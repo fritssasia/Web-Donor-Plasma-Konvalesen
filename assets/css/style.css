@@ -1,4 +1,8 @@
 /* == Global CSS (CSS Style For All Page) == */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #222F54;
@@ -113,7 +117,7 @@ p {
     color: #222F54;
 }
 
-#home-navbar .nav-item.active .nav-link {
+#home-navbar .nav-link.active {
     color: #FF3D48;
 }
 
