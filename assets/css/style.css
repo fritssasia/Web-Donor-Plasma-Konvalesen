@@ -33,7 +33,7 @@ p {
 }
 /* End Of Font Weight (Default Regular : 400) */
 
-/* Color */
+/* Color & Bg-Color */
 .color-1 {
     color: #FF3D48;
 }
@@ -44,6 +44,10 @@ p {
 
 .color-3 {
     color: #222F54;
+}
+
+.bg-color-1 {
+    background-color: #FF3D48;
 }
 /* End Of Color */
 
