@@ -138,7 +138,7 @@ p {
 #jumbotron {
     background-image:
         linear-gradient(to bottom, rgb(0, 0, 0, 0.80), rgb(0, 0, 0, 0.80)), url('../images/background/nguy-n-hi-p-2rNHliX6XHk-unsplash.jpg');
-    height: 700px;
+    height: 105vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
