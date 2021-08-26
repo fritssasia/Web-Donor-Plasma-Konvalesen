@@ -1,4 +1,8 @@
 /* == Global CSS (CSS Style For All Page) == */
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -269,4 +273,4 @@ p {
 .modal-donor-details .btn-contact {
     padding: 9px 30px;
 }
-/* End Of Page : cari-pendonor.html */
+/* == End Of Page : cari-pendonor.html == */
