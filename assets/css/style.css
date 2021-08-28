@@ -261,15 +261,20 @@ p {
     margin: 0px 2px;
 }
 
+.modal-donor-details .close-icon:hover {
+    color: #ff0e0e;
+}
+
 .modal-donor-details .donor-photo {
     border: 3px solid #FF3D48;
-    width: 115px;
-    height: 115px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 100%;
 }
 
-.modal-donor-details .btn-contact {
+.modal-donor-details .btn {
     padding: 9px 30px;
+    margin: 0px 5px;
 }
 /* == End Of Page : cari-pendonor.html == */

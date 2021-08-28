@@ -200,51 +200,56 @@
     <!-- Modal 01 -->
     <div class="modal fade modal-donor-details" id="modalDonor01" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content px-2 py-2">
                 <div class="modal-header border-0">
                     <h5 class="modal-title" id="exampleModalLabel">Detail Pendonor</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <ion-icon name="close-circle-outline" class="close-icon"></ion-icon>
                     </button>
                 </div>
                 <div class="modal-body px-3 py-3">
-                    <div class="px-3 py-3 rounded" style="background-color: #ff3d4723;">
-                        <img src="assets/images/onic-kayes.jpg" alt="" class="donor-photo">
+                    <div class="row no-gutters">
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <img src="assets/images/onic-kayes.jpg" alt="" class="donor-photo d-block mx-auto">
+                        </div>
+                        <div class="col">
+                            <table class="table table-sm table-borderless" style="font-size: 15px;">
+                                <tbod>
+                                    <tr>
+                                        <td class="fw-medium">Nama Lengkap</td>
+                                        <td class="text-secondary">Onic Kayes</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Jenis Kelamin</td>
+                                        <td class="text-secondary">Perempuan</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Tempat & Tanggal Lahir</td>
+                                        <td class="text-secondary">Bandung, 01 Februari 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Golongan Darah</td>
+                                        <td class="text-secondary">O</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Rhesus</td>
+                                        <td class="text-secondary">+</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Tanggal terinfeksi COVID-19</td>
+                                        <td class="text-secondary">12 Januari 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-medium">Tanggal sembuh dari COVID-19</td>
+                                        <td class="text-secondary">25 Januari 2021</td>
+                                    </tr>
+                                </tbod>
+                            </table>
+                        </div>
                     </div>
-                    <table class="table table-sm table-borderless mt-3" style="font-size: 15px;">
-                        <tbod>
-                            <tr>
-                                <td class="fw-medium">Nama Lengkap</td>
-                                <td class="text-secondary">Onic Kayes</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Jenis Kelamin</td>
-                                <td class="text-secondary">Perempuan</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Tempat & Tanggal Lahir</td>
-                                <td class="text-secondary">Bandung, 01 Februari 2000</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Golongan Darah</td>
-                                <td class="text-secondary">O</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Rhesus</td>
-                                <td class="text-secondary">+</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Tanggal terinfeksi COVID-19</td>
-                                <td class="text-secondary">12 Januari 2021</td>
-                            </tr>
-                            <tr>
-                                <td class="fw-medium">Tanggal sembuh dari COVID-19</td>
-                                <td class="text-secondary">25 Januari 2021</td>
-                            </tr>
-                        </tbod>
-                    </table>
-                    <div class="text-center pt-3">
+                    <div class="modal-footer border-0 pt-3 pb-0">
+                        <button type="button" class="btn secondary-btn-outline" data-dismiss="modal">Tutup</button>
                         <a href="" class="btn primary-btn btn-contact">Kontak</a>
                     </div>
                 </div>
@@ -259,7 +264,8 @@
         <div class="container">
             <div class="text clearfix">
                 <div class="float-none float-lg-left float-md-left">
-                    <p class="mb-0">Copyright &copy; 2021 <a href="" class="text-decoration-none">donorplasma.com</a></p>
+                    <p class="mb-0">Copyright &copy; 2021 <a href="" class="text-decoration-none">donorplasma.com</a>
+                    </p>
                 </div>
                 <div class="float-none float-lg-right float-md-right">
                     <p class="fw-medium mb-2">#BersatuLawanCovid19</p>
